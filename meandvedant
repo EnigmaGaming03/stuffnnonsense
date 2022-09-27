@@ -1,0 +1,26 @@
+import random
+import time
+import os
+names=['Forest', 'Birch', 'Plains', 'mangrove', 'desert']
+def clearConsole():
+    os.system('clear')
+
+#Set any array
+random_array_item=random.choice(names)
+
+#Declare a variable as a random choice
+print("you just spawned in a "+random.choice(names)+" biome")
+time.sleep(2); 
+clearConsole()
+print('explore-E')
+time.sleep(1)
+print('crafting-C')
+time.sleep(1)
+print('creative-Creative')
+time.sleep(1)
+print('')
+
+       
+  
+
+  
